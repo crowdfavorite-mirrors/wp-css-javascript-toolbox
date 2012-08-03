@@ -1,0 +1,69 @@
+/** CSS & Javascript Toolkit - Admin CSS **/
+.wrap { position:relative; }
+.wrap h2 { float:left; }
+#wpcontent { min-width:1040px; }
+#post-body { min-width:1020px; }
+#cjtoolbox_donate { float:right; position:relative; right:20px; line-height:40px; width:380px; }
+#cjtoolbox_donate input { position:absolute; right:0; top:0; }
+
+#cjtoolbox_form { clear:both; }
+.cjcodeblock { margin-right:350px; min-width:660px; }
+.cjpageblock { width:320px; position:absolute; right:12px; }
+.pagelist { padding:10px; height:172px; overflow:auto; background:#fff; border:1px solid #ccc; }
+.pagelist li { line-height:19px; word-wrap:break-word; margin:0; padding:0; }
+.pagelist ul { margin-left:18px; }
+.cssblock, .jsblock { width:50%; }
+.cssblock { float:left; }
+.jsblock { float:right; }
+.datablock textarea { width:100%; height:242px; }
+.deleteblock a.button-secondary { padding:5px 10px; margin:10px 0 5px; float:right; }
+.linklist textarea { width:290px; font-size:11px; height:190px; }
+
+.cjtitle { float:left; width:245px; }
+.cssblock select { width:150px; }
+.jsblock select { width:155px; }
+.cjbutton { width:85px; height:20px; float:left; }
+.cjbutton a { height:20px; width:20px; text-indent:-999em; margin:5px 5px 0 0; display:block; float:left; }
+.cjexample { clear:both; float:left; padding:5px 0 0; }
+a.add_code { background:url(icons/add_code.png) no-repeat; }
+a.delete_code { background:url(icons/delete_code.png) no-repeat; }
+a.insert_code { background:url(icons/insert_code.png) no-repeat; }
+a.l_ext { background:url(icons/external_link.gif) no-repeat; width:13px; height:11px; display:inline-block; }
+
+#cjtoolbox-addblock { float:left; padding:5px 10px; }
+
+#cjtoolbox-tips { padding:20px; }
+#cjtoolbox-tips ul li { list-style-type:square; }
+
+
+.cj-save-popup { position:absolute; -moz-border-radius:12px; -webkit-border-radius:12px; border-radius:12px; background:rgba(0, 0, 0, 0.4); color:#fff; font-size:24px; text-align:center; display:none; z-index:99; }
+#cj-save-save { background:url(accept.png) 20px 50% no-repeat; padding:30px 30px 30px 70px; }
+#cj-save-reset { background:url(warning.png) 20px 50% no-repeat; padding:30px 30px 30px 70px; }
+
+#cj-ajax-load { position:absolute; background:rgba(255, 255, 255, 0.8); text-align:center; display:none; padding:50px; z-index:999; width:100%; height:100%; }
+#cj-ajax-load img { position:absolute; }
+
+#save_bar { background: #f3f3f3; border:solid #ccc; border-width:1px; padding: 10px 20px; text-align: right; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px; }
+.hide { display:none }
+.ajax-loading-img-top { margin: 8px 4px 0; float:left }
+
+
+/*
+ * jQuery UI Tabs 1.8.16
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Tabs#theming
+ */
+.ui-tabs { position: relative; padding: .2em; zoom: 1; } /* position: relative prevents IE scroll bug (element with position: relative inside container with overflow: auto appear as "fixed") */
+.ui-tabs .ui-tabs-nav { margin: 0; padding: .2em .2em 0; }
+.ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 1px; margin: 0 .2em 1px 0; padding: 0; white-space: nowrap; }
+.ui-tabs .ui-tabs-nav li a { background:#F1F1F1; color:#999999; border-color:#DFDFDF #DFDFDF #CCCCCC; height:18px;margin:5px 5px 0 0;padding:4px 5px 2px;float:right;cursor:pointer;border-width:1px;border-style:solid;-moz-border-radius:3px 3px 0 0;-webkit-border-top-right-radius:3px;-webkit-border-top-left-radius:3px;-khtml-border-top-right-radius:3px;-khtml-border-top-left-radius:3px;border-top-right-radius:3px;border-top-left-radius:3px; border-bottom: 0 !important; }
+.ui-tabs .ui-tabs-nav li a { float: left; padding: .5em 1em; text-decoration: none; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; background:#E9E9E9; border-color:#CCCCCC #CCCCCC #E9E9E9; color:#333333; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; } /* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere... */
+.ui-tabs .ui-tabs-panel { display: block; padding: 5px 10px; background: #EFEFEF; border-color:#CCCCCC; border-style:solid;border-width:1px;border-collapse:separate;-moz-border-radius:3px 3px 0 0;-webkit-border-top-right-radius:3px;-webkit-border-top-left-radius:3px;-khtml-border-top-right-radius:3px;-khtml-border-top-left-radius:3px;border-top-right-radius:3px;border-top-left-radius:3px; clear:both; height:228px; }
+.ui-tabs .ui-tabs-hide { display: none !important; }
